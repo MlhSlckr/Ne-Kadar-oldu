@@ -1,0 +1,68 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.container {
+  max-width: 1200px;
+  height: 100vh;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-title {
+  font-size: 42px;
+  margin-bottom: 50px;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px;
+  font-size: 28px;
+}
+
+.number .text {
+  margin-top: 20px;
+}
+
+.date {
+  width: 200px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.button {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=main.css.map */
