@@ -19,10 +19,10 @@ button.addEventListener('click', () => {
     const mins = Math.floor(totalSeconds / 60) % 60;
     const seconds = Math.floor(totalSeconds) % 60;
 
-    gün.textContent = formatTimer(days);
-    saat.textContent = formatTimer(hours);
-    dakika.textContent = formatTimer(mins);
-    saniye.textContent = formatTimer(seconds);
+    gün.textContent = formatTimer(days * -1);
+    saat.textContent = formatTimer(hours * -1);
+    dakika.textContent = formatTimer(mins * -1);
+    saniye.textContent = formatTimer(seconds * -1);
     localStorage.setItem('dateValue', date.value)
   }
 
@@ -50,10 +50,10 @@ if (localStorage.dateValue) {
     const mins = Math.floor(totalSeconds / 60) % 60;
     const seconds = Math.floor(totalSeconds) % 60;
 
-    gün.textContent = formatTime(days);
-    saat.textContent = formatTime(hours);
-    dakika.textContent = formatTime(mins);
-    saniye.textContent = formatTime(seconds);
+    gün.textContent = formatTime(days * -1);
+    saat.textContent = formatTime(hours * -1);
+    dakika.textContent = formatTime(mins * -1);
+    saniye.textContent = formatTime(seconds * -1);
   }
 
   function formatTime(time) {
