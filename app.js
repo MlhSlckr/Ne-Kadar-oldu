@@ -50,6 +50,7 @@ button.addEventListener('click', () => {
     saat.textContent = formatTime(hours);
     dakika.textContent = formatTime(mins);
     saniye.textContent = formatTime(seconds);
+    localStorage.setItem('dateValue', date.value)
 
   }
 
@@ -60,7 +61,6 @@ button.addEventListener('click', () => {
   countdown();
 
   setInterval(countdown, 1000)
-  localStorage.setItem('dateValue', date.value)
 
 })
 
